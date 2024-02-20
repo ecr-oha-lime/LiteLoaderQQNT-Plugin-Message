@@ -1,0 +1,10 @@
+
+/** 对方聊天背景 */
+.msg-content-container.container--others {
+    background: var(--bubble_guest);
+}
+
+/** 己方聊天背景 */
+.msg-content-container.container--self {
+    background: var(--host_bubble_bg_css_value);
+}

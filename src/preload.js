@@ -1,0 +1,1 @@
+var e=require("electron");e.contextBridge.exposeInMainWorld("MESSAGE",{saveConfig:i=>e.ipcRenderer.send("LiteLoader.MESSAGE.saveConfig",i),getConfig:()=>e.ipcRenderer.invoke("LiteLoader.MESSAGE.getConfig"),upDateConfig:i=>e.ipcRenderer.on("LiteLoader.MESSAGE.upDateConfig",i),clickMessage:i=>e.ipcRenderer.on("LiteLoader.MESSAGE.clickMessage",i)});

@@ -1,0 +1,32 @@
+{
+    "manifest_version": 4,
+    "type": "framework",
+    "name": "自定义聊天气泡",
+    "slug": "MESSAGE",
+    "description": "自定义聊天气泡禾字体颜色",
+    "version": "1.0.0",
+    "icon": "./icon.png",
+    "authors": [
+        {
+            "name": "Night-stars-1",
+            "link": "https://github.com/Night-stars-1"
+        }
+    ],
+    "repository": {
+        "repo": "Night-stars-1/LiteLoaderQQNT-Plugin-MESSAGE",
+        "branch": "main",
+        "release": {
+            "tag": "v1.0.0"
+        }
+    },
+    "platform": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "injects": {
+        "main": "./src/main.js",
+        "preload": "./src/preload.js",
+        "renderer": "./src/renderer.js"
+    }
+}
