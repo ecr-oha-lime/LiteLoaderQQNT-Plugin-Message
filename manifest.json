@@ -3,7 +3,7 @@
     "type": "framework",
     "name": "自定义聊天气泡",
     "slug": "MESSAGE",
-    "description": "自定义聊天气泡禾字体颜色",
+    "description": "自定义聊天气泡和字体颜色 ( ^ v ^ )",
     "version": "1.0.0",
     "icon": "./icon.png",
     "authors": [
